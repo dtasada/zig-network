@@ -42,11 +42,7 @@ jobs:
       - name: Setup Zig (${{ env.ZIG_VERSION }})
         uses: mlugg/setup-zig@v2
         with:
-<<<<<<< HEAD
-          version: ${{ env.ZIG_VERSION }}
-=======
           version: master
->>>>>>> e23add2 (ci: Use Zig master)
 
       - name: Compile and run testsuite
         run: |
